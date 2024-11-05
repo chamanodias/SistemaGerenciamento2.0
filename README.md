@@ -1,18 +1,30 @@
-## Getting Started
+# Sistema Integrado de Gestão
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é um sistema integrado de gestão que abrange três áreas principais: **Eventos**, **Restaurante** e **Clínica Médica**. O sistema foi desenvolvido em Java e visa otimizar processos, melhorar a experiência do usuário e facilitar a tomada de decisões com base em dados.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- **Gestão de Eventos**
+  - Cadastro de eventos com informações detalhadas.
+  - Registro de participantes e verificação de lotação.
+  - Geração de relatórios de eventos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Gestão de Restaurante**
+  - Controle de mesas e pedidos.
+  - Cálculo da receita total gerada.
+  - Verificação de mesas ocupadas.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Gestão de Clínica Médica**
+  - Agendamento de consultas.
+  - Registro de médicos e pacientes.
+  - Relatórios de consultas realizadas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Código Principal
 
-## Dependency Management
+O código principal para utilizar o sistema é a classe **`SistemaIntegrado`**. Esta classe gerencia a integração entre as diferentes funcionalidades do sistema.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Tecnologias Utilizadas
+
+- Java
+- IDE: Visual Studio Code
+
